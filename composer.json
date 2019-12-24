@@ -1,0 +1,17 @@
+{
+  "name": "kennedytedesco/coroutines-php",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Coral\\": "src"
+    }
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^2.1"
+  },
+  "scripts": {
+    "cs": [
+      "./vendor/bin/php-cs-fixer fix src --allow-risky yes --rules=@PSR2"
+    ]
+  }
+}
